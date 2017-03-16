@@ -1,0 +1,39 @@
+* {
+  padding: 0;margin: 0;
+}
+section {
+  background-color: pink;
+}
+section ul li {
+  line-height: 50px;
+}
+.menu__link {     //a标签样式
+    font-size: 1.05em;
+    font-weight: bold;
+    display: block;
+    padding: 1em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.menu--alonso .menu__line {  //下划线样式
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    pointer-events: none;
+    border: 1px solid #fff;
+    border-width: 0 47px;
+    background: #d94f5c;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-transition-timing-function: cubic-bezier(1, 0.01, 0, 1);
+    -webkit-transition-timing-function: cubic-bezier(1, 0.01, 0, 1.22);
+    transition-timing-function: cubic-bezier(1, 0.01, 0, 1.22);
+}
